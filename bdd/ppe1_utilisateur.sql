@@ -1,0 +1,4 @@
+INSERT INTO ppe1.utilisateur (utilisateur_num, utilisateur_identifiant, utilisateur_mdp, utilisateur_admin, utilisateur_responssable, ligue_num) VALUES (11, 'user1', '12dea96fec20593566ab75692c9949596833adc9', 0, 1, 1);
+INSERT INTO ppe1.utilisateur (utilisateur_num, utilisateur_identifiant, utilisateur_mdp, utilisateur_admin, utilisateur_responssable, ligue_num) VALUES (12, 'user2', '12dea96fec20593566ab75692c9949596833adc9', 0, 1, 2);
+INSERT INTO ppe1.utilisateur (utilisateur_num, utilisateur_identifiant, utilisateur_mdp, utilisateur_admin, utilisateur_responssable, ligue_num) VALUES (13, 'user3', '12dea96fec20593566ab75692c9949596833adc9', 0, 1, 3);
+INSERT INTO ppe1.utilisateur (utilisateur_num, utilisateur_identifiant, utilisateur_mdp, utilisateur_admin, utilisateur_responssable, ligue_num) VALUES (14, 'admin1', 'd033e22ae348aeb5660fc2140aec35850c4da997', 1, 0, null);

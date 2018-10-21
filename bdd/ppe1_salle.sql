@@ -1,0 +1,15 @@
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (1, 'ni_30_1', 30, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (2, 'ni_30_2', 30, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (3, 'ni_30_3', 30, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (4, 'ni_30_4', 30, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (5, 'ni_30_5', 30, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (6, 'ni_18_1', 18, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (7, 'ni_18_2', 18, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (8, 'ni_18_3', 18, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (9, 'ni_18_4', 18, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (10, 'ni_18_5', 18, 0);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (11, 'i_18_1', 18, 1);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (12, 'i_18_2', 18, 1);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (13, 'i_18_3', 18, 1);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (14, 'i_18_4', 18, 1);
+INSERT INTO ppe1.salle (salle_num, salle_nom, salle_places, salle_informatise) VALUES (15, 'i_18_5', 18, 1);

@@ -1,0 +1,3 @@
+INSERT INTO ppe1.reservation (reservation_num, reservation_demande, reservation_debut, reservation_fin, ligue_num, salle_num) VALUES (1, '2018-06-15 00:00:00', '2018-06-26 11:46:45', '2018-06-27 11:46:52', 1, 1);
+INSERT INTO ppe1.reservation (reservation_num, reservation_demande, reservation_debut, reservation_fin, ligue_num, salle_num) VALUES (2, '2018-09-01 00:00:00', '2018-09-11 11:47:24', '2018-09-12 11:47:40', 2, 13);
+INSERT INTO ppe1.reservation (reservation_num, reservation_demande, reservation_debut, reservation_fin, ligue_num, salle_num) VALUES (3, '2018-10-09 00:00:00', '2018-10-22 11:48:28', '2018-10-23 11:48:39', 4, 6);
