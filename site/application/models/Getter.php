@@ -14,4 +14,10 @@ class Getter extends CI_Model
     public function AllSalles(){
         return $this->db->select('*')->from('salle')->get()->result();
     }
+
+    public function AllReservationOneUser($ligueId){
+        return $this->db->select(' reservation_num, reservation_debut, reservation_fin, salle_nom')
+            ->from('reservation')->join('salle', 'reservation.salle_num = salle.salle_num')->where('ligue_num',$ligueId)
+            ->get()->result();
+    }
 }

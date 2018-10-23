@@ -24,7 +24,8 @@ class Selfcare extends CI_Controller {
                 'Id' => $data[0]->utilisateur_num,
                 'Pseudo' => $data[0]->utilisateur_identifiant,
                 'IsAdmin' => ($data[0]->utilisateur_admin == '0') ? 0 : 1,
-                'IsResponssable' => ($data[0]->utilisateur_responssable == '0') ? 0 : 1
+                'IsResponssable' => ($data[0]->utilisateur_responssable == '0') ? 0 : 1,
+                'LigueId' => $data[0]->ligue_num
                 );
             redirect(site_url('selfcare/AllSalles'));
         }
@@ -37,6 +38,7 @@ class Selfcare extends CI_Controller {
         if (!isset($this->session->user)){redirect(site_url('/'));}
         $this->load->model('Getter');
         $data['salles'] = $this->Getter->AllSalles();
+        $data['reservations'] = $this->Getter->AllReservationOneUser($this->session->user['LigueId']);
         $this->load->view('base/head');
         $this->load->view('base/menu');
         $this->load->view('selfcare/listing', $data);

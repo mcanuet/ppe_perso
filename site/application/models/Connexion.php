@@ -15,7 +15,7 @@ class Connexion extends CI_Model {
      * @return mixed  un tableau qui correspond contenant les utilisateurs avec le couple pseudo/mdp correspondant
      */
     public function test($pseudo, $mdp){
-        $co = $this->db->select('utilisateur_num, utilisateur_identifiant, utilisateur_admin, utilisateur_responssable, utilisateur_verr')
+        $co = $this->db->select('utilisateur_num, utilisateur_identifiant, utilisateur_admin, utilisateur_responssable, utilisateur_verr, ligue_num')
             ->from('utilisateur')
             ->where('utilisateur_identifiant',$pseudo)
             ->where('utilisateur_mdp',sha1($mdp))
